@@ -1,0 +1,21 @@
+[project]
+name = "web-scrapping"
+version = "0.1.0"
+description = "Collection of practical Python web scrapers."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.12.3",
+    "lxml>=5.2.2",
+    "pandas>=2.2.2",
+    "pylint>=4.0.2",
+    "requests>=2.32.3",
+]
+
+[dependency-groups]
+dev = [
+    "pylint-ignore>=2021.1024",
+]
+
+[project.scripts]
+scrapehub = "main:main"
