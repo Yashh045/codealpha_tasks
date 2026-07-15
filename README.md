@@ -1,0 +1,1 @@
+This repository contains all projects of Data Analytics internship at CodeAlpha
